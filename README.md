@@ -8,4 +8,4 @@ Necesidad Principal: Con el crecimiento de los eventos agendados y solicitados t
 
 Solicitud Extra: Un página interna con login para miembros donde los directivos puedan crear eventos y los miembros puedan inscribirse a dichos eventos y controlar sus tareas; y en donde los directivos puedan evaluar la colaboración de los miembros en cada evento.
 
-Mockups: https://app.moqups.com/andreanaranjo/Dri3Qln9D6/view/page/a21dc2e18?ui=0
+Mockups: https://app.moqups.com/andreanaranjo/Dri3Qln9D6/view/page/a21dc2e18
