@@ -24,7 +24,7 @@ nav.header {
 	font-family: Satisfy;
 	border-radius: 15px;
 	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-
+	margin-bottom: 40px;
 }
 
 nav.header div.izquierda{
@@ -98,4 +98,30 @@ header.header div.derecha{
 }
 #lab_social_icon_footer a {
   color: #393e46;
+}
+
+div.container section{
+	padding-top: 110px;
+}
+
+div.container h2{
+	font-family: Satisfy;
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 40px;
+}
+
+h3{
+	font-family: serif;
+	padding-bottom: 10px;
+	font-size: 29px;
+}
+
+div.container p{
+	text-align: justify;
+}
+
+img[id^="foto"]{
+	padding-bottom: 20px;
+	padding-left: 30em;
 }
