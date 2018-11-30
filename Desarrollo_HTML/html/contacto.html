@@ -34,7 +34,7 @@
 			<div class = "derecha">
 				<ul>
 					<li><a href="quienes_somos.html">¿Quienes somos?</a></li>
-					<li><a href="que_hacemos.html">Que hacemos?</a></li>
+					<li><a href="que_hacemos.html">¿Que hacemos?</a></li>
 					<li><a href="noticias.html">Noticias</a></li>
 					<li><a href="prox_eventos.html">Proximos Eventos</a></li>
 					<li><a href="portafolio.html">Portafolio</a></li>
@@ -46,7 +46,7 @@
 		<div class="container">
 			<section>
 				<h2>Formulario</h2>
-				<form action="mi-formulario" method="post">
+				<form method="post">
 					<div>
 						<label for="nombres">Nombres:</label>
 						<input type="text" placeholder="Nombres" id="nombres" name="nombres_usuario" />
@@ -68,10 +68,11 @@
 						<textarea id="mensaje" placeholder="Motivo de querer contactarse" name="mensaje_usuario"></textarea>
 					</div>
 					<div class="button">
-						<button type="submit">Enviar</button>
+						<button onclick="notificar()" id="botonForm" type="submit">Enviar</button>
 					</div>
 				</form>
 			</section>
 		</div>
+		<script type="text/javascript" src="../js/script.js"></script>
 	</body>
 </html>

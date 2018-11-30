@@ -106,7 +106,7 @@ header.header div.derecha{
 }
 
 div.container section{
-	padding-top: 110px;
+	padding-top: 100px;
 }
 
 div.container h2{
@@ -162,6 +162,7 @@ input, textarea{
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 1px solid #999;
+	resize: vertical;
 }
 
 input:focus, textarea:focus {
@@ -174,15 +175,49 @@ textarea{
 	resize: vertical;
 }
 
+@media screen and (max-width: 650px){
+	form{
+		width: auto;
+	}
+
+	input, textarea{
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		resize: vertical;
+	}
+}
+
 .button{
 	padding-left: 190px;
+	
 }
 
 button{
 	margin-left: .5em;
+	cursor: pointer;
+	text-align: center;
 }
 
-article.quienesSomos .queHacemos p h3 h2{
-	justify-content: inherit;
-	align-items: inherit;
+.carousel{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.d-block{
+	height: 450px;
+	width: 300px;
+}
+
+#map{
+    width: 40%;
+    height: 300px;
+    background-color: grey;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
 }
