@@ -77,10 +77,18 @@ nav.header div h1 a:hover{
 
 }
 
-header.header div.izquierda{
+header.header div#prueba{
+	display: inline-block;
+	width: 100%;
+}
+header.header div#prueba div.izquierda{
 	float:left;
 }
-header.header div.derecha{
+
+header.header div#prueba div#espacio{
+
+}
+header.header div#prueba div.derecha{
 	float:right;
 	margin-top: 18px;
 	margin-right: 20px;
@@ -220,4 +228,111 @@ button{
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+	overflow: hidden;
+	background: #00adb5;
+	box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+	line-height: 3em;
+	font-family: Satisfy;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+	border-radius: 15px;
+	align-items: center;
+	text-align: center; 	
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: #ece8d9;
+	font-size: 25px;
+	margin-right: 5px;
+	margin-top: 0;
+	padding-top:10px;
+	margin-left: 20px;
+}
+
+.topnav a:hover {
+  color: #f8b500;
+  font-size: 30px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+.mySlides {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 90%;
+	}
+.w3-content{max-width:980px;
+}
+
+article a{
+	color:white;
+}
+article.quienesSomos, article.queHacemos{
+	background-color: #00adb5;
+	border-radius: 15px; 
+	padding-bottom: 10px;
+}
+article.quienesSomos div, article.queHacemos div.divisor_seccion{
+	margin: 20px;
+	padding:10px;
+	border-color: white;
+	border-style: solid;
+	border-width: 5px;
+}
+
+article.quienesSomos h3, article.queHacemos h3{
+	color: #f8b500;
+	text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+	
+}
+
+article.quienesSomos div img{
+	border:1px solid #021a40;
+    border-radius:150px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 900px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav a:hover {
+  color: #f8b500;
+  font-size: 30px;
+}
 }
