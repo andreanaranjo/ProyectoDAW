@@ -555,3 +555,20 @@ p{
   font-size: 30px;
 }
 }
+
+div.container{
+  margin-bottom: 2em;
+}
+
+iframe{
+  width:  600px;
+  height: 450px;
+  border-style: 0;
+  margin-left: 350px;
+  margin-right: auto;
+}
+
+object{
+  width: 400px;
+  height: 50px
+}
